@@ -49,9 +49,9 @@
           <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto pt-2 pt-lg-0 font-base">
               <li class="nav-item px-2" data-anchor="data-anchor"><a class="nav-link fw-bold active" aria-current="page" href="#home">Home</a></li>
-              <li class="nav-item px-2" data-anchor="data-anchor"><a class="nav-link fw-bold" href="#service">About Us</a></li>
-              <li class="nav-item px-2" data-anchor="data-anchor"><a class="nav-link fw-bold" href="#feature">How it Works</a></li>
-              <li class="nav-item px-2" data-anchor="data-anchor"><a class="nav-link fw-bold" href="#testimonial">FAQs</a></li>
+              <li class="nav-item px-2" data-anchor="data-anchor"><a class="nav-link fw-bold" href="#about">About Us</a></li>
+              <li class="nav-item px-2" data-anchor="data-anchor"><a class="nav-link fw-bold" href="#whychooseus">Why Choose Us</a></li>
+              <li class="nav-item px-2" data-anchor="data-anchor"><a class="nav-link fw-bold" href="#faqs">FAQs</a></li>
             </ul>
             <form class="ps-lg-5">
               <button class="btn btn-link text-danger fw-bold order-1 order-lg-0" type="button">Sign in</button><a class="btn hover-top btn-collab" href="#">JOIN NOW</a>
@@ -80,7 +80,7 @@
 
             <!-- ============================================-->
       <!-- <section> begin ============================-->
-      <section class="py-6"  style="margin-top: -100px;  background:linear-gradient(180deg, #FFFEFC -54.51%, #FFF8F0 99.98%);">
+      <section id="about" class="py-6"  style="margin-top: -100px;  background:linear-gradient(180deg, #FFFEFC -54.51%, #FFF8F0 99.98%);">
 
         <div class="container">
           <div class="row flex-center">
@@ -123,7 +123,7 @@
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-      <section class="py-6 bg-soft-warning">
+      <section class="py-6 bg-soft-warning" id="whychooseus">
 
         <div class="container">
           <div class="row">
@@ -224,7 +224,7 @@
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-      <section class="pb-md-10" id="faq" style=" background:linear-gradient(180deg, #FFFEFC -54.51%, #FFF8F0 99.98%);">
+      <section id="faqs" class="pb-md-10" id="faq" style=" background:linear-gradient(180deg, #FFFEFC -54.51%, #FFF8F0 99.98%);">
 
         <div class="container">
           <div class="row justify-content-center">
@@ -327,11 +327,12 @@
                 <div class="col-8 col-sm-9">
                   <label class="visually-hidden" for="colFormLabel">Username</label>
                   <div class="input-group">
-                    <input class="form-control" id="colFormLabel" type="email" placeholder="Enter email address" />
+                    <input type="num" class="form-control" id="colFormLabel" type="email" placeholder="Enter email address" />
                   </div>
                 </div>
                 <div class="col-4 col-sm-3 text-end">
-                  <button class="btn btn-collab" type="submit">Submit</button>
+                  <!-- <button class="btn btn-collab" type="submit">Submit</button> -->
+                  <a href="#home" class="btn btn-collab">Submit</a>
                 </div>
               </form>
             </div>
